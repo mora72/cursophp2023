@@ -23,7 +23,7 @@
             $real = $_GET["valor"] ?? 0;
             $dolar = $real / $cotacao;
             $padrao = numfmt_create("pt-BR", NumberFormatter::CURRENCY);
-            echo "<p>A cotacao foi de $cotacao  para data $fim <br>";
+            echo "<p>A cotacao foi de $cotacao para data $fim<br>";
             echo "<p>Seus " . numfmt_format_currency($padrao, $real, "BRL") . " correspondem a <strong>" . numfmt_format_currency($padrao, $dolar, "USD") . "</strong></p>";
         ?>
         <p><a href="javascript:history.go(-1)">Clique AQUI para voltar...</a></p>

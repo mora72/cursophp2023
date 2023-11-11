@@ -15,7 +15,7 @@
             $num = mt_rand($min, $max);
             echo "<p>Gerar entre $min e $max.<br>Número gerado = $num</p>"
         ?>
-        <button onclick="javascrip:document.location.reload()">&#x1F504; Gerar nro></button>
+        <button onclick="javascrip:document.location.reload()">&#x1F504; Gerar nro</button>
     </main>
 </body>
 </html>
